@@ -1,0 +1,144 @@
+.colorFuente {
+
+    color: #000; /* Negro */
+
+}
+
+body { /*imagen que cubra todo el body*/
+
+    background-image: url('imagenFondo.jpg');
+
+    background-size: cover; 
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+}
+
+/*estilos para el nav*/
+.navbar-custom {
+
+    background-image: url('imagenFondo.jpg');
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+}
+
+.navbar-nav .nav-link { /*efectos que agregue al nav (hovers)*/
+
+    color: #111111;
+
+    transition: color 0.3s ease, background-color 0.3s ease;
+
+}
+  
+
+.navbar-nav .nav-link:hover {
+
+    color: #111111;
+
+    background-color: rgba(54, 54, 54, 0.1);
+
+    border-radius: 5px;
+
+}
+  
+
+
+.navbar-brand {
+
+    color: #111111;
+
+    transition: color 0.3s ease, background-color 0.3s ease;
+
+}
+
+
+.navbar-brand:hover {
+
+    color: #111111;
+
+    background-color: rgba(54, 54, 54, 0.1);
+
+    border-radius: 5px;
+
+}
+
+/*encabezado*/
+header img { /* mi foto de perfil en el encabezado */
+
+    transition: transform 0.3s ease, opacity 0.3s ease;
+
+}
+
+
+header img:hover {
+
+    transform: scale(1.05);
+
+    opacity: 0.9;
+
+}
+
+.bgHeader { /*imagen de portada en el encabezado*/
+
+    background-image: url('portada.png');
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    padding: 60px 0;
+
+}
+
+
+/*seccion portfolio*/
+.modificaImagen { /*imagenes de la seccion portfolio*/
+
+    height: 200px; 
+
+    object-fit: cover; 
+
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.modificaImagen:hover { /*agrego un hover a las imagenes del portfolio*/
+
+    transform: scale(1.05);
+
+}
+  
+
+.imgLogo { /*logos de la seccion Acerca de mi*/
+
+    height: 200px;
+
+    object-fit: cover;
+
+}
+
+
+.footer-bg { /*fondo del footer*/
+
+    background-image: url('fondoFooter.jpg');
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+}
+
+
