@@ -120,12 +120,18 @@ header img:hover {
 }
   
 
-.imgLogo { /*logos de la seccion Acerca de mi*/
+.imgLogo { 
 
-    height: 200px;
+    max-height: 125px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    object-fit: cover;
-
+.row-spacing {
+    margin-bottom: 3rem; /* Espacio extra entre filas */
 }
 
 
