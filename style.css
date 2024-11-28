@@ -131,7 +131,7 @@ header img:hover {
 }
 
 .row-spacing {
-    margin-bottom: 3rem; /* Espacio extra entre filas */
+    margin-bottom: rem; /* Espacio extra entre filas */
 }
 
 
