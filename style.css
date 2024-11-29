@@ -147,4 +147,14 @@ header img:hover {
 
 }
 
+a.text-white {
+    display: inline-block; /* Asegura un comportamiento correcto */
+    text-decoration: none; /* Elimina decoraciones no deseadas */
+}
+
+.icon-container {
+    font-size: 0; /* Elimina cualquier espacio o separación entre elementos inline */
+    display: inline-flex; /* Alinea los íconos horizontalmente */
+    gap: 10px; /* Agrega espacio entre íconos */
+}
 
