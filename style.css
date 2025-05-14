@@ -103,36 +103,57 @@ header img:hover {
 
 
 /*seccion portfolio*/
-.modificaImagen { /*imagenes de la seccion portfolio*/
-
-    height: 200px; 
-
-    object-fit: cover; 
-
-    transition: transform 0.3s ease-in-out;
-
+/* Aplica sombra suave a las tarjetas */
+.card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.modificaImagen:hover { /*agrego un hover a las imagenes del portfolio*/
-
-    transform: scale(1.05);
-
-}
-  
-
-.imgLogo { 
-
-    max-height: 125px;
-    object-fit: contain;
-    margin-bottom: 1rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-.row-spacing {
-    margin-bottom: rem; /* Espacio extra entre filas */
+/* Imágenes bien recortadas sin deformar */
+.card-img-top {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  object-fit: cover;
+  width: 100%;
 }
+
+/* Íconos de tecnologías en color negro */
+.card-body i {
+  color: #000;
+  transition: color 0.2s ease-in-out;
+}
+
+.card-body i:hover {
+  color: #555;
+}
+
+/* Textos centrados y legibles */
+.card-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Responsive gap y separación */
+.row.g-4 {
+  row-gap: 2rem;
+}
+
+/* Encabezado de sección */
+#portfolio h2 {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
 
 
 .footer-bg { /*fondo del footer*/
