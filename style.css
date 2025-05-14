@@ -148,13 +148,37 @@ header img:hover {
 }
 
 a.text-white {
-    display: inline-block; /* Asegura un comportamiento correcto */
-    text-decoration: none; /* Elimina decoraciones no deseadas */
+    display: inline-block; 
+    text-decoration: none; 
 }
 
 .icon-container {
-    font-size: 0; /* Elimina cualquier espacio o separación entre elementos inline */
-    display: inline-flex; /* Alinea los íconos horizontalmente */
-    gap: 10px; /* Agrega espacio entre íconos */
+    font-size: 0; 
+    display: inline-flex; 
+    gap: 10px; 
+}
+.tech-slider {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.slider-track {
+  display: inline-block;
+  animation: scroll 25s linear infinite;
+}
+
+.slider-track i {
+  margin: 0 2rem;
+  color: black;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
