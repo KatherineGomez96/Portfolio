@@ -186,7 +186,7 @@ a.text-white {
 
 .slider-track {
   display: inline-block;
-  animation: scroll 25s linear infinite;
+  animation: scroll 45s linear infinite;
 }
 
 .slider-track i {
