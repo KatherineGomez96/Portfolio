@@ -202,4 +202,15 @@ a.text-white {
     transform: translateX(-50%);
   }
 }
+.tech-slider i {
+  font-size: 3rem;
+  color: #212529; /* gris oscuro/negro neutro */
+  transition: transform 0.3s ease, color 0.3s ease;
+  padding: 0 1rem;
+}
+
+.tech-slider i:hover {
+  transform: scale(1.2);
+  color: #6c757d; /* gris Bootstrap suave */
+}
 
